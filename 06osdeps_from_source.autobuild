@@ -1,3 +1,5 @@
+cmake_package 'external/pybind11'
+
 in_flavor 'master', 'stable' do
     cmake_package 'external/opencv' do |pkg|
         pkg.define("CMAKE_BUILD_TYPE","Release")

@@ -90,6 +90,14 @@ version_control:
       github: msgpack/msgpack-c
       tag: cpp-3.1.1
 
+    - tools/pocolog_pybind:
+      github: esa-prl/tools-pocolog_pybind
+      branch: main
+
+    - external/pybind11:
+      github: pybind/pybind11
+      branch: $ROCK_BRANCH
+
 overrides:
     - ^(orogen|typelib|rtt|utilrb|utilmm|rtt_typelib|tools/metaruby)$:
       branch: $ROCK_BRANCH
