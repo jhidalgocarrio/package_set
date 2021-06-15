@@ -91,8 +91,8 @@ version_control:
       tag: cpp-3.1.1
 
     - tools/pocolog_pybind:
-      github: esa-prl/tools-pocolog_pybind
-      branch: main
+      github: jhidalgocarrio/tools-pocolog_pybind
+      branch: $ROCK_BRANCH
 
     - external/pybind11:
       github: pybind/pybind11
